@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0 10px;
+}
+
+.navbar-nav {
+    gap: 15px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+#carousel {
+    max-width: 100%;
+}
+
+#carousel img {
+    width: 100%;
+}
+
+.right img:nth-child(2) {
+    padding-top: 24px;
+}
+
+.right img {
+    width: 100%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left .noithat {
+    padding-top: 20px;
+}
+
+.product-title {
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 5px 0 0 0;
+}
+
+.card-title {
+    font-size: 40px;
+}
+
+#banner {
+    position: relative;
+    margin-top: 20px;
+}
+
+#banner img {
+    width: 100%;
+}
+
+.circle {
+    width: 357px;
+    height: 309px;
+    border-radius: 50%;
+    background-color: brown;
+    opacity: 0.8;
+    position: absolute;
+    left: 79px;
+    top: 56px;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.circle p {
+    margin-bottom: 0;
+}
+
+.circle-title {
+    font-size: 40px;
+    line-height: 72px;
+}
+
+#service {
+    padding: 0 120px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#service .card {
+    text-align: center;
+}
+
+#service .card-img-top {
+    width: 15%;
+    margin: auto;
+}
+
+#service .card-title {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    line-height: 12px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
